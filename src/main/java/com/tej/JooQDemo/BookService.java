@@ -21,7 +21,7 @@ public class BookService {
 
     public void insertBook(Book book){
         context
-                .insertInto(Tables.BOOK, Tables.BOOK.AUTHOR, Tables.BOOK.AUTHOR)
+                .insertInto(Tables.BOOK, Tables.BOOK.TITLE, Tables.BOOK.AUTHOR)
                 .values(book.getTitle(), book.getAuthor())
                 .execute();
     }
