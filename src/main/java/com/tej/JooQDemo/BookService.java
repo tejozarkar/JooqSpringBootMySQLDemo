@@ -5,7 +5,6 @@ import com.tej.JooQDemo.jooq.sample.model.tables.pojos.Book;
 import org.jooq.DSLContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
